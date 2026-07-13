@@ -11,8 +11,8 @@ mulheres_menores = 0
 
 while True:
     idade = int(input('Idade: '))
-
-    sexo = input ('Sexo [M/F]: ').strip () .upper ()
+    while sexo not in 'MF':
+        sexo = str (input ('Sexo [M/F]: ')).strip () .upper () [0]
 
     if  idade >=18:
         maiores +=1
