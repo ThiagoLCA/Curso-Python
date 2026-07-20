@@ -1,4 +1,4 @@
-# Faça um programa que tenha uma função chamada area(), 
+# exercicio 96. Faça um programa que tenha uma função chamada area(), 
 # que recebe as dimensões de um terreno retangular (Largura, comprimento)
 # mostre a área do terreno
 
