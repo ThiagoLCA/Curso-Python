@@ -19,17 +19,17 @@ def contador(inicio, fim, passo):
     if inicio < fim:
         cont = inicio
         while cont <= fim:
-            print (f'{cont}', end= '', flush = True)
+            print (f'{cont} ', end= ' ', flush = True)
             sleep (0.5)
             cont += passo
         print ('FIM')
     else: 
-        cont =1
+        cont =inicio
         while cont >= fim:
-            print (f'{cont}', end= '', flush = True)
+            print (f'{cont}', end= ' ', flush = True)
             sleep (0.5)
             cont -= passo
-    print ('FIM')
+        print ('FIM')
     
 # Programa Principal
 
@@ -37,7 +37,7 @@ contador (1,10,1)
 contador (10,0,2)
 print ('-=' *20)
 print ('Agora é sua vez de personalizar a contagem!')
-ini = int(input('INICIO'))
-fi = int (input('FIM'))
-pa = int (input ('PASSO'))
+ini = int(input('INICIO: '))
+fi = int (input('FIM: '))
+pa = int (input ('PASSO: '))
 contador (ini, fi, pa)
